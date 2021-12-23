@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family: Times New Roman, Georgia, Garamond;
+    font-weight: 900;
+    background: url(frankfort.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: contain;
+    backdrop-filter: blur(15px)
+}
+header{
+    text-align:  center;
+    background-color:  #5e47f1;
+    color:  #fff;
+    padding:  5px;
+}
+header h1{
+    font-size: 52px;
+    margin-bottom:  20px;
+}
+header p{
+    font-size:  22px;
+}
+main{
+    width:  90vw;
+    margin: 0 auto;
+    padding:  30px 20px;
+}
+article{
+    padding:  150px 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+article:last-child{
+    margin-bottom: 0;
+}
+article h3{
+    margin: 15px 0 30px o;
+}
+article p{
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 28px;
+}
+a {
+    text-decoration: none;
+}
+footer{
+    position:  relative;     
+    bottom: 10;
+    text-align: left;
+    background-color:  #5e47f1;
+    color:  #ffffff;
+    padding:  30px;
+    font: #ffffff;
+}
